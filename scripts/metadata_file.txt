@@ -1,0 +1,19 @@
+accumulated_deforestation_2000.shp
+Length: 55767
+
+uid - int64 - identificador para rastreabilidade da feição na origem/produção do dado
+state - object - nome do estado, unidade da federação, quando aplicável.
+path_row - object - código da cena formado por linha/coluna da grade de passagem do satélite Landsat
+main_class - object - nome da classe principal atribuída à feição
+class_name - object - nome da classe específica atribuída à feição
+def_cloud - float64 -  indica se havia nuvem em ano anterior sobre a feição. (Não se aplica ao bioma Pampa)
+julian_day - float64 - dia juliano (Não se aplica ao bioma Pampa)
+image_date - object - data da cena usada para obter a feição
+year - float64 - ano da feição, usado para facilitar as consultas ao banco de dados
+area_km - float64 - área calculada para a feição em km²
+scene_id - float64 - identificador da cena no banco de dados, usado para consultas (Não se aplica ao bioma Pampa)
+source - object - nome da origem do poligono (amazonia, cerrado, caatinga, mata_atlantica, pampa, pantanal), caso o polígono tenha sido incorporado de outro projeto, por exemplo, devido à alteração do mapa de biomas ou ainda às zonas da amazônia legal no cerrado e pantanal
+satellite - object - nome do satélite. Em geral será o landsat mas em alguns casos, outro satélites podem ser utilizados.
+sensor - object - nome do sensor que obteve a imagem.
+uuid - object - identificador único universal de cada feição (RFC 4122, ISO/IEC 9834-8:2005)
+geometry - geometry -  feição composta por um ou mais polígonos - geometria obtida por interpretação visual de imagem de satélite.

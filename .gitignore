@@ -1,0 +1,14 @@
+# Arquivos com extensão .cpg
+*.cpg
+
+# Arquivos com extensão .dbf
+*.dbf
+
+# Arquivos com extensão .prj
+*.prj
+
+# Arquivos com extensão .shp
+*.shp
+
+# Arquivos com extensão .shx
+*.shx
